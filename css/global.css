@@ -84,6 +84,10 @@ img {
   padding: 4px 12px 4px 12px;
   margin-bottom: 12px;
   border-radius: 4px;
+  &:active {
+    background-color: black;
+    color: #f4d04e;
+  }
 }
 .beeline-info__date {
   font-weight: 500;
