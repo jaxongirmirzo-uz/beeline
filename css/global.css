@@ -1,0 +1,118 @@
+@import "/css/normalize.css";
+
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* global start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background-color: #f4d04e;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Figtree", sans-serif;
+  height: 522;
+  width: 100%;
+  max-width: 384px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 8px 8px black;
+}
+
+.container {
+  width: 100%;
+  max-width: 376px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  object-fit: cover;
+}
+/* global end */
+
+/* main start  */
+.beeline {
+}
+.beeline__container {
+}
+
+.beeline__image {
+  margin-bottom: 24px;
+}
+.beeline-info {
+}
+.learning-btn {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  width: 82px;
+  background-color: #f4d04e;
+  color: black;
+  padding: 4px 12px 4px 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.beeline-info__date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 12px;
+}
+.beeline-info__title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.beeline-info__description {
+  color: #7f7f7f;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.beeline__owner__account {
+  display: flex;
+  gap: 12px;
+}
+.owner__image {
+  border-radius: 999px;
+}
+.owner__name {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+}
+/* main end */
